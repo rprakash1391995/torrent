@@ -1,17 +1,27 @@
 
 
 #background{
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../image/backgr1.jpg)  center/cover no-repeat  fixed;
+    background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../image/backgr1.jpg)  center/cover no-repeat fixed;
 }
 
-#overlay{
-    background: url(../image/musicBg.jpg) center/cover no-repeat;
+#overlay1{
+     
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/musicBg.jpg) center/cover no-repeat;
+  height: 600px;
+  position: relative;
+  }
+
+.torch_music {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
 }
+
 #images{
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/gamedark.jpg!d) center/cover no-repeat;
+background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/gamedark.jpg!d) center/cover no-repeat;
 }
 #foooter-Img{
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/sunset.jpg) center/cover no-repeat;
+    background: url(../image/sunset.jpg) center/cover no-repeat;
 }
 .navbar-brand{
     border-radius: 50%;
@@ -35,8 +45,9 @@ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../im
   }
 
 
-  @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 480px) {
     body {
       font-size: 16px;
     }
-  }
+  } 
+  
