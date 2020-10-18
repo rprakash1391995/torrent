@@ -1,0 +1,42 @@
+
+
+#background{
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../image/backgr1.jpg)  center/cover no-repeat  fixed;
+}
+
+#overlay{
+    background: url(../image/musicBg.jpg) center/cover no-repeat;
+}
+#images{
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/gamedark.jpg!d) center/cover no-repeat;
+}
+#foooter-Img{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/sunset.jpg) center/cover no-repeat;
+}
+.navbar-brand{
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px orange;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 1.5s ease;
+  }
+  
+  .card:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  }
