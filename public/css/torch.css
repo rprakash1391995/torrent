@@ -1,13 +1,20 @@
 
 
-#background{
+.background{
     background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(../image/backgr1.jpg)  center/cover no-repeat fixed;
-}
+  height: 600px;
+  position: relative;
+  }
 
+  .homepage{
+    position:absolute;
+  margin-top: 13%;
+  /* margin-top: 15rem; */
+  }
 #overlay1{
      
     background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/musicBg.jpg) center/cover no-repeat;
-  height: 600px;
+  height: 700px;
   position: relative;
   }
 
@@ -19,9 +26,29 @@
 
 #images{
 background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/gamedark.jpg!d) center/cover no-repeat;
+height: 700px;
+position: relative;
 }
+.gamers{
+  position:absolute;
+  margin-top: 13%;
+  /* margin-top: 15rem; */
+  left: 15%;
+
+}
+.ids{
+  width: 466px;
+  height: 266px;
+}
+
 #foooter-Img{
     background: url(../image/sunset.jpg) center/cover no-repeat;
+    height: 700px;
+    position: relative;
+}
+.jionUs{
+  position:absolute;
+  margin-top: 13%;
 }
 .navbar-brand{
     border-radius: 50%;
@@ -51,3 +78,21 @@ background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../ima
     }
   } 
   
+  .mediaG{
+    width: 400px;
+    height: 225px;
+  }
+
+  #player{
+    background-color: rgb(238, 51, 69);
+    height: 700px;
+    position: relative;
+  }
+  .torch_player{
+    position:absolute;
+     margin-top: 20%;
+    left: 25%;
+
+  }
+ 
+ 
